@@ -8,8 +8,7 @@ void main(){
 
 int tinhTongN(int N){
   int tong=0;
-  for(int i=1;i<=N;i++){
-    if(i%2==0)
+  for(int i=0;i<=N;i+=2){
       tong+=i;
   }
   return tong;
